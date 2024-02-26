@@ -145,6 +145,8 @@ export default defineComponent({
     }
 
     expose({
+      isFirst,
+      isLast,
       pages,
       page: currentPage,
       prev: onClickPrev,
